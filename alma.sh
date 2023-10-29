@@ -54,3 +54,4 @@ echo
 echo -n " /   |  |  -\ $BLUE  CPU:    $RESET $CPU"
 echo 
 echo -n "/_-''    ''-_\ $BLUE GPU:    $RESET $GPU"
+echo 
