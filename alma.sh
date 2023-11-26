@@ -33,7 +33,7 @@ dewmds="$(echo $XDG_CURRENT_DESKTOP) ($(echo $XDG_SESSION_TYPE))"
 
 ## get the used/available ram
 
-ram=$(free | grep Mem | awk '{printf "%.1f GiB / %.1f GiB", $3/1024, $2/1024}')
+ram=$(free | grep Mem | awk '{printf "%.1f MiB / %.1f MiB", $3/1024, $2/1024}')
 
 ## get the CPU 
 CPU=$(lscpu | grep "Model name" | sed 's/Model name:\s*//')
